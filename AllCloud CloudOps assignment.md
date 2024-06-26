@@ -1,8 +1,8 @@
-1. enter console
-2. change region
+1. Enter console
+2. Change region to eu-west-1
 3. Navigate to s3 > cloudops-test-keys
-4. download the key from the bucket
-6. used this command (In Windows CMD) to log in after downloading the pem key:
+4. Download the key from the bucket
+6. Useed this command (In Windows CMD) to log in after downloading the pem key:
 
 ```shell
 ssh -i "C:\Users\galro\Downloads\CloudOpsKey.pem" ec2-user@54.247.10.194

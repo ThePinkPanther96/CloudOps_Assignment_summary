@@ -218,7 +218,7 @@ ff02::3 ip6-allhosts
 sudo chmod -R 755 /var/www/html
 sudo chown -R www-data:www-data /var/www/html
 ```
-33. I restarted the Apache service again.
-34. when I tried to connect to the webpage again I finally was able to see the HTML page: 
+32. I restarted the Apache service again.
+33. when I tried to connect to the webpage again I finally was able to see the HTML page: 
 	http://elb-web-example-gr-0095dee7-101026811.eu-west-1.elb.amazonaws.com/
 

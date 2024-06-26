@@ -213,8 +213,12 @@ ff02::3 ip6-allhosts
 # Added:
 127.0.0.1 ip-10-0-163-180
 ```
-
-28. I restarted the Apache service again.
-29. when I tried to connect to the webpage again I finally was able to see the HTML page: 
+31. I tried changing the permissions again and it worked this time with no issues
+```bash
+sudo chmod -R 755 /var/www/html
+sudo chown -R www-data:www-data /var/www/html
+```
+33. I restarted the Apache service again.
+34. when I tried to connect to the webpage again I finally was able to see the HTML page: 
 	http://elb-web-example-gr-0095dee7-101026811.eu-west-1.elb.amazonaws.com/
 

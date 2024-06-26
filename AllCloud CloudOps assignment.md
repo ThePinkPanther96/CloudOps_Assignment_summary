@@ -144,7 +144,7 @@ address = elb-web-example-gr-0095dee7-101026811.eu-west-1.elb.amazonaws.com
 
 ```
 
-17. I noticed that a the web server "web-example-gr-0095dee7" was created, how ever access to the site is not possible beacuse "This page isn't working". 
+17. I noticed that a the web server "web-example-gr-0095dee7" was launched, how ever access to the site is not possible beacuse "This page isn't working". 
 18. So, I logged in to the machine: 
 ```bash
 ssh -i "C:\Users\galro\Downloads\CloudOpsKey.pem" ubuntu@34.255.0.246
